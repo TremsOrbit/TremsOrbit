@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Trist
+- 👋 Hi, I’m Tristin
 - 👀 I’m a student
 - 🌱 I’m currently learning stuff
 - 💞️ 
