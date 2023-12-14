@@ -1,0 +1,6 @@
+﻿  FinalProjectStub.cpp
+C:\Users\User\Desktop\C++\FinalProjectStub\FinalProjectStub.cpp(110,1): error C2059: syntax error: 'private'
+C:\Users\User\Desktop\C++\FinalProjectStub\FinalProjectStub.cpp(112,1): error C2059: syntax error: '}'
+C:\Users\User\Desktop\C++\FinalProjectStub\FinalProjectStub.cpp(112,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\User\Desktop\C++\FinalProjectStub\FinalProjectStub.cpp(114,5): error C2084: function 'int main(void)' already has a body
+C:\Users\User\Desktop\C++\FinalProjectStub\FinalProjectStub.cpp(99,5): message : see previous definition of 'main'
