@@ -1,0 +1,385 @@
+.array {
+  gap: 15px;
+}
+    .array .navbar {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      margin-left: 60px;
+    }
+    .array .navbar a {
+      float: left;
+      text-align: center;
+      padding: 18px 92px;
+      text-decoration: none;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .array ol {
+      line-height: 2;
+      font-size: 17px;
+      width: 80%;
+    }
+    .array .array-text p {
+      line-height: 1.5;
+      font-size: 17px;
+    }
+    .array .form-filler {
+      width: 100%;
+      margin-left: 0px;
+      font-size: 18px;
+      font-weight: bold;
+      padding-bottom: 25px;
+    }
+    .array .adoption-source {
+      text-align: center;
+      padding-bottom: 15px;
+    }
+    .array footer {
+      margin-left: 25px;
+    }
+
+.form {
+  gap: 15px;
+} 
+    .form .the-title {
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 35px;
+      padding: 15px;
+      width: 90%;
+    }
+    .form .error-message {
+      font-size: 18px;
+    }
+    .form .navbar {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      margin-left: 0px;
+      width: 100%;
+    }
+    .form .navbar a {
+      float: left;
+      text-align: center;
+      padding: 20px 100.75px;
+      text-decoration: none;
+    }
+    .form-image-container {
+      height: 75%;
+      padding: 15px;
+    }
+    .form-image-container figure {
+      width: 94%;
+      height: 75%;
+    }
+    .form fieldset p {
+      padding: 8px;
+    }
+    #orderState {
+      padding: 8px;
+      margin-bottom: 5px;
+    }
+    #labelState {
+      padding: 15px;
+    }
+    #intended {
+      width: 100%;
+      height: 25%;
+    }
+    .form footer {
+      margin-left: 25px;
+    }
+    .form-submit-button {
+      background: #111227;
+      color: #82a0b9;
+      border: 1px solid #272652;
+      border-radius: 20px;
+      box-shadow: none;
+      text-shadow: none;
+      font-size: 20px
+      }
+      .form-submit-button:hover {
+      background: #82a0b9;
+      color: #d7fff7;
+      border: 1px solid #000;
+      border-radius: 20px;
+      box-shadow: 10px 10px 10px #272652;
+      text-shadow: none;
+      }
+
+
+
+.about {
+  gap: 10px;
+}
+  .about .navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .about .navbar a {
+    float: left;
+    text-align: center;
+    padding: 20px 44px;
+    text-decoration: none;
+  }
+  .imgdiv {
+    width: 55%;
+    height: 500px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    margin-left: 25px;
+
+  }
+  .imgdiv img {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    position: relative; bottom: 50px;
+  }
+  .about .the-title {
+    height: 400px;
+    width: 28%;
+    float: right;
+    margin-right: 25px;
+    text-align: right;
+    margin-top: 0px;
+    line-height: 1.75;
+  }
+  .header {
+    padding-bottom: 25px;
+  }
+  .header h1,
+  .header h2 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .important-info-container h3{
+    text-indent: 25px;
+  }
+  .important-info-container li {
+    height: 50px;
+    padding: 15px;
+  }
+  .cali-list li {
+    line-height: 2;
+    font-size: 16px;
+    text-indent: 15px;
+  }
+  .calico h4 {
+    font-size: 18px;
+  }
+  .about .the-title h1, 
+  .about .the-title h2 {
+    margin-top: 50px;
+  }
+  .about footer {
+    margin-left: 25px;
+  }
+
+
+
+
+
+.index {
+  gap: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "title nav-bar"
+  "info goal"
+  "sunset sunset";
+}
+  .I-dont {
+   width: 100px; 
+   position: relative; bottom: 877px;
+   margin-right: 40px;
+   grid-area: sunset;
+  }
+  #sunset {
+    width: 750px;
+    height: 500px;
+    margin-right: 20px;
+  }
+  .my-goal {
+    grid-area: goal;
+    width: 450px;
+    height: 400px;
+    position: relative; left: 875px;
+    position: relative; bottom: 0px;
+    text-overflow: 0;
+    font-size: 20px;
+  }
+  .my-goal p {
+    line-height: 2;
+  }
+  .index .navbar a {
+    display: block; 
+    height: 46px;
+    text-align: center;
+    padding: 10px; 
+    text-decoration: none;
+    margin-bottom: 5px; 
+  }
+  
+  .index .navbar {
+    width: 500px; 
+    height: auto;
+    margin-top: 25px;
+    margin-left: 200px;
+    grid-area: nav-bar;
+    position: relative;
+    right: 775px;
+  }
+  .index .the-title {
+    height: 250px;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 50px;
+    grid-area: title;
+    text-align: center;
+  }
+  .index footer {
+    position: relative; right: 540px;
+    position: relative; top: 525px;
+  }
+  .I-cant td {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .I-cant {
+    position: relative; bottom: 925px;
+    width: 1375px;
+    grid-area: info;
+    margin-left: 85px;
+}
+
+
+
+
+
+.detail {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "title detail-img"
+    "nav nav"
+    "info info"
+    "img2 footer";
+  gap: 10px;
+}
+
+  .detail .the-title {
+    font-size: 16px;
+    grid-area: title;
+    width: 400px;
+    height: 393px;
+    margin-left: 50px;
+    margin-top: 25px;
+    text-indent: 0px;
+    text-align: center;
+  }
+  .detail .the-title h2 {
+    line-height: 2.5;
+    margin-top: 10px;
+  }
+  .detail-image-container {
+    grid-area: detail-img;
+    width: 695px;
+    height: 425px;
+    position: relative; right: 15px;
+    margin-top: 25px;
+  }
+  #Wandering-Rhino {
+    height: 100%;
+    width: 100%;
+  }
+  .detail-image2 img {
+    grid-area: img2;
+    height: 250px;
+    width: 250px;
+    position: relative; bottom: 1925.5px;
+    position: relative; left: 30px;
+    margin-left: 100px;
+  }
+  .detail .navbar {
+    grid-area: nav;
+    margin-top: 0px;
+    margin-left: 80px;
+    width: 100%;
+    position: relative; bottom: 800px;
+  }
+  .detail .navbar a {
+    float: left;
+    text-align: center;
+    padding: 16px 75px;
+    text-decoration: none;
+    height: 35px;
+  }
+  .detail-important {
+    height: 110%;
+  }
+  .detail-info {
+    grid-area: info;
+    width: 145%;
+    height: 1300px;
+    position: relative; right: 525px;
+    position: relative; bottom: 1975px;
+  }
+  .detail-info h2 {
+    text-align: right;
+    margin-right: 25px;
+  }
+  .detail-info .h3 {
+    font-size: 20px;
+    position: relative; bottom: 100px;
+  }
+  .detail-info p {
+    text-align: right;
+    line-height: 2;
+    position: relative; right: 25px;
+    font-size: 22px;
+  }
+  .detail-info li {
+    position: relative; top: 100px;
+    position: relative; left: 25px;
+    line-height: 1.75;
+    max-width: 1000px;
+    text-indent: 50px;
+    margin: 10px 5px;
+    font-size: 17px;
+    padding-left: 10px;
+  }
+  .detail footer {
+    grid-area: footer;
+    position: relative; bottom: 1975px;
+    position: relative; left: 200px;
+    height: 50px;
+}
+
+
+#Tristin {
+  width: 40%;
+  height: 50%;
+  position: relative; right: 475px;
+}
+.selfie figcaption {
+  float: left;
+  position: relative; top: 425px;
+}
+#UVM {
+  width: 45%;
+  height: 450px;
+  float: right;
+  position: relative; bottom: 450px;
+  position: relative;
+}
+.walking figcaption {
+  float: right;
+  position: relative; left: 400px;
+}

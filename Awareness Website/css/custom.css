@@ -1,0 +1,296 @@
+:root {
+  --main-bg-color: rgba(246, 247, 235, 1);
+  --accent-color: rgb(235, 56, 86);
+  --text-bg-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.detail,
+.sitemap {
+  background-color: #bbc7c6d6;
+  font-family: "Dyslexie", "Courier New", monospace;
+}
+
+.form {
+  background-color: #a9b4c7ba;
+}
+.form .the-title {
+      border-style: ridge;
+      border-color: #f6d664;
+      border-width: 1.25em;
+      padding: 2em;
+    }
+    .form-image-container {
+      border-style: ridge;
+      border-color: #808894;
+      border-width: 1.25em;
+      padding: 1em;
+    }
+    .form .navbar { 
+        background-color:#627ab6;
+        color: rgb(182, 201, 205);
+        text-decoration: none;
+    }
+    .form .navbar a {
+      background-color:#627ab6;
+      color: #36353c;
+      font-weight: bold;
+      text-decoration: none;
+    }
+      .form nav a:hover {
+      background-color: #a5b9eb; 
+      text-decoration: underline;
+      }
+      .form .navbar a:active {
+        background-color: #82a0b9; 
+        color: rgb(210, 241, 243);
+      }
+      .form .navbar a:checked {
+        color: #050505;
+
+      }
+
+
+
+.array {
+  background-color: #ccccbf
+}
+  .array .navbar a {
+    background-color:#7ca4c5;
+    color: rgb(31, 34, 34);
+    text-decoration: none;
+  }
+  .array nav a:hover {
+  background-color: #6088bd; 
+  text-decoration: underline;
+  }
+  .array .navbar a:active {
+    background-color: #416aa3; 
+    color: rgb(164, 164, 164);
+  }
+    .array .the-title {
+      border-style: ridge;
+      border-color: #f7cc40ee;
+      border-width: 1.25em;
+      padding: 2em;
+    }
+    .array table {
+      border: 2px solid #062130;
+      border-collapse: collapse;
+      }
+      .array table td, .index table th {
+        border: 1px solid #144660;
+        padding: 0.5em;
+        }
+
+        .array table th {
+        background-color: #416aa3;
+        color: #f4e9cd;
+        }
+
+        .array table tr:nth-child(odd),
+        .array ol li:nth-child(even) {
+        background-color: #6088bd;
+        }
+
+        .array table tr:nth-child(even),
+        .array ol li:nth-child(odd) {
+        background-color: #7ca4c5;
+      }
+
+
+
+.about {
+      background-color: #82a0b9;
+    }
+    .about ol li:nth-child(odd),
+    .about ul li:nth-child(odd) {
+      background-color: #aad0c8c4;
+      color: white;
+    }
+    .about .the-title {
+      border-style: ridge;
+      border-color: #C0C0C0;
+      border-width: 1.25em;
+      padding: 2em;
+    }
+
+    .about ol li:nth-child(even),
+    .about ul li:nth-child(even) {
+      background-color: #55648be7;
+    }
+    .imgdiv {
+      border-style: ridge;
+      border-color: #1d1e2f;
+      border-width: 1.25em;
+      padding: 1em;
+    }
+    .about .navbar a {
+      background-color:#2e457d;
+      color: rgb(178, 196, 200);
+      text-decoration: none;
+    }
+    
+    .about nav a:hover {
+    background-color: #d7fff7; 
+    text-decoration: underline;
+    }
+    .about .navbar a:active {
+      background-color: #C0C0C0; 
+      color: rgb(164, 164, 164);
+    }
+
+.index {
+      background-color: #b9a28c;
+    }
+    #sunset {
+      border-style: ridge;
+      border-color: #a03f18;
+      border-width: 1.25em;
+      padding: 1em;
+    }
+    .index table {
+    border: 2px solid #062130;
+    border-collapse: collapse;
+    }
+
+    .index table td, .index table th {
+    border: 1px solid #a03f18;
+    padding: 0.5em;
+    }
+
+    .index table th {
+    background-color: #493030;
+    color: #f4e9cd;
+    }
+
+    .index table tr:nth-child(odd) {
+    background-color: #c9663f;
+    }
+
+    .index table tr:nth-child(even) {
+    background-color: #aa947f;
+    }
+    .index .navbar a {
+      background-color:#2f1003;
+      color: #f4e9cd;
+      text-decoration: none;
+    }
+    
+    .index nav a:hover {
+    background-color: #ed9960c8; 
+    text-decoration: underline;
+    }
+    .index .navbar a:active {
+      background-color: #a03f18; 
+      color: white;
+    }
+
+
+.the-title {
+  border-style: ridge;
+  border-color: #f7cc40ee;
+  border-width: 1.25em;
+  padding: 2em;
+}
+.detail .the-title,
+.detail-important {
+  border-style: ridge;
+  border-color: #2d2c29ee;
+  border-width: 1.25em;
+  padding: 2em;
+}
+div {
+  border-style: ridge;
+  border: 1vw solid #475768;
+  padding: 0.75em;
+}
+
+ol li:nth-child(odd) {
+  background-color: #77aca2;
+}
+
+ol li:nth-child(even) {
+  background-color: #f4e9cd;
+}
+
+#rhino-sad,
+.detail-image-container,
+.sitemap-img-div,
+.my-goal {
+  border-style: ridge;
+  border-color: #f4e9cd;
+  border-width: 1.25em;
+  padding: 1em;
+}
+
+.calico
+ {
+  border-style: ridge;
+  border-color: #475768;
+  border-width: 1.25em;
+  padding: 1em;
+}
+
+span,
+span h2 {
+  color: #000000;
+  padding-left: 0.3125em;
+  padding-right: 0.3125em;
+  text-decoration: underline 0.2em solid rgb(139,33,44);
+}
+
+.files {
+  border-width: 1.25em;
+}
+
+ol {
+  list-style-type: upper-roman;
+  font-weight: bold; 
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+cite {
+  font-size: 0.75em;
+}
+
+.rounded-image {
+  border-radius: 1em;
+}
+
+.rounded-figure {
+  border-radius: 1em;
+}
+
+
+.detail .navbar a {
+  background-color:rgba(119,172,162);
+  color: black;
+  text-decoration: none;
+}
+
+.detail nav a:hover {
+background-color: #ccc; 
+text-decoration: underline;
+}
+.detail .navbar a:active {
+  background-color: #4b505d; 
+  color: white;
+}
+
+table caption {
+font-weight: bold;
+font-size: 1.2em;
+}
+
+.sitemap-header{
+border: 2px solid #062130;
+border-collapse: collapse;
+}
+
+p {
+  font-weight: bold; 
+}
